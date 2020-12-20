@@ -1,0 +1,58 @@
+
+.title {
+  position: relative;
+  width: 85vw;
+  clip-path: polygon(100% 0, 100% calc(100% - 50px), calc(100% - 50px) 100%, 0 100%, 0 0);
+  opacity: 1;
+  z-index: 2;
+  color: whitesmoke;
+  padding: 0.5vw;
+  background-color: #6bb32c;
+}
+
+.buton {
+  text-align: left;
+  margin-top: 5vh;
+  position: relative;
+  width: 70vw;
+  clip-path: polygon(100% 0, calc(100% - 50px) 100%, 0 100%, 0 0);
+  opacity: 1;
+  z-index: 2;
+  background-color: #6bb32c;
+  color: whitesmoke;
+  padding: 1vw;
+  border: 0;
+}
+
+.buton:hover {
+  width: 73vw;
+  background-color: #5a9926;
+  color: lightgray;
+
+}
+
+
+.user {
+  position: absolute;
+  height: 90vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: calc(100vw - 73vw);
+  padding-top: 20vh;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logout {
+  color: #713e91;
+}
+
+.logout:hover {
+  color: #008a8b;
+}
+
+.image {
+  width: auto;
+  height: 3vh;
+}
